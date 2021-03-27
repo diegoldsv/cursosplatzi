@@ -18,3 +18,9 @@ Repositorio que contiene ejercicios y documentación generadas en distintos curs
 ### Python
 
 * Curso Básico de Python
+
+## Autores
+
+La mayoría de la información agrupada en este repositorio es de **Platzi.com**.   
+Personas que contribuyen en este repositorio:
+* @diegoldsv
