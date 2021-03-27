@@ -42,6 +42,8 @@ Operadores:
 "a" * 4 # Resultado: "aaaa"
 ```
 
+Son **inmutables**. No pueden cambiar durante la ejecución.
+
 ### Booleanos
 
 True o False
@@ -156,9 +158,98 @@ while numero_actual <= 10:
 
 ### For
 
-### Do While
+Para una variable, el código se ejecuta **mientras** el valor de la variable se encuentra en un grupo de valores.
+```python
+# Contar hasta 10
+for numero_actual in range(11):
+    print(str(numero_actual))
 
+# Imprimir las letras de un nombre
+for letra in "Diego":
+    print(letra)
+```
 
+### Modificando el flujo de ejecución de los ciclos
+
+Se puede modificar el flujo de ejecución con las siguientes palabras claves:
+* break: Interrumpir un ciclo.
+* continue: Ir a la siguiente iteración de un ciclo.
+
+## Estructuras de Datos
+
+### Listas
+
+Grupo de valores almacenados en una variable.   
+
+* Los datos pueden ser de diferentes tipos.
+* Para trabajar sobre ellas, al igual que con los Strings, usamos índices y funciones propias de las listas.
+* Son dinámicas, pueden variar durante la ejecución del programa.
+
+```python
+lista_de_numeros = [1, 2, 3, 4]
+persona = ["Diego", 23, "Venezuela"]
+
+# Acceder a un elemento de la lista
+print(persona[0]) # Resultado: Diego
+
+# Agregar/Eliminar elementos
+lista_de_numeros.append(1) # Resultado: [1, 2, 3, 4, 1]
+lista_de_numeros.pop(1) # Resultado: [1, 3, 4, 5]
+
+# Suma de listas
+lista_de_numeros + persona # Resultado: [1, 3, 4, 5, 'Diego', 23, 'Venezuela']
+```
+
+### Tuplas
+
+Grupo de valores almacenados en una variable.
+
+* Los datos pueden ser de diferentes tipos.
+* Son inmutables, **no** pueden variar durante la ejecución del programa.
+
+### Diccionarios
+
+Grupo de llaves y valores almacenados en una variable.
+
+* Las llaves son los identificadores de cada valor.
+* Usamos las llaves para acceder a los valores.
+
+```python
+persona = {
+    "Nombre": "Diego",
+    "Edad": 23,
+    "Pais": "Venezuela"
+}
+
+# Acceder a los valores del diccionario
+print("Información de la persona:")
+print("Nombre: " + persona["Nombre"])
+print("Edad: " + str(persona["Edad"]))
+print("Pais: " + persona["Pais"])
+
+# Recorrer las llaves de un diccionario
+for informacion in persona.keys():
+    print(informacion)
+
+# Recorrer los valores de un diccionario
+for datos in persona.values():
+    print(datos)
+
+# Recorrer los items de un diccionario
+for informacion, dato in persona.items():
+    if type(dato) is int:
+        dato = str(dato)
+    print(informacion + ": " + dato)
+```
+## Importar Módulos
+
+Existen librerías (grupos de funciones ya escritas) que podemos utilizar en nuestro código.   
+Para ello, debemos importarlas al inicio del código:
+```python
+import random
+
+print("Número aleatorio del 1 al 100: " + str(random.randint(1,100)))
+```
 ## Buenas Prácticas
 
 * Almacenar el código principal del programa en una función run() o main().
