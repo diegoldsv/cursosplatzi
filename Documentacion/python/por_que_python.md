@@ -8,6 +8,7 @@ Al empezar en la programación, es mejor preguntarnos donde queremos especializa
 * Inteligencia Artificial
 * Backend
 * Data Science
+* Seguridad Informática
 
 ## ¿Aplicaciones donde se utiliza? 
 
