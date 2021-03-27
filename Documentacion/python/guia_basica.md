@@ -206,6 +206,11 @@ Grupo de valores almacenados en una variable.
 
 * Los datos pueden ser de diferentes tipos.
 * Son inmutables, **no** pueden variar durante la ejecución del programa.
+* Es recomendable su uso para casos donde sabemos que no vamos a modificar el grupo de valores que queremos definir debido a la eficiencia de las tuplas.
+
+```python
+tupla_de_numeros = (1, 2, 3, 4)
+```
 
 ### Diccionarios
 
