@@ -13,7 +13,7 @@ print(caja) # Imprime: 10
 Reglas:
 * El identificador de la variable debe empezar con minúsculas.
 * El identificador no puede empezar con números.
-* Si el identificador contiene varias palabras, separarlos por guion bajo.
+* Si el identificador contiene varias palabras, separarlas por guion bajo.
 
 ## Constantes 
 
@@ -33,11 +33,11 @@ Reglas:
 
 Para definirlas podemos usar comillas dobles o simples.   
 Operadores:
-* + -> Significa concatenación
+* \+ -> Significa concatenación
 ```python
 "a" + "b" # Resultado: "ab"
 ```
-* * -> Significa repetición
+* \* -> Significa repetición
 ```python
 "a" * 4 # Resultado: "aaaa"
 ```
@@ -61,7 +61,7 @@ True o False
 - Divison Entera: //
 - Resto o Módulo: %
 - Potencia: **
-- Raiz: ** número decimal o importando la libreria **math**
+- Raiz: ** número decimal
 
 ## Operadores Lógicos
 

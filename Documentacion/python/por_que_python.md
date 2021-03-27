@@ -28,4 +28,4 @@ Al empezar en la programación, es mejor preguntarnos donde queremos especializa
 
 * Fácil
 * Elegante
-* Buenas prácticas
+* La sintaxis del lenguaje ayuda a la adquisición de buenas prácticas de programación.
