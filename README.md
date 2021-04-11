@@ -18,6 +18,7 @@ Repositorio que contiene ejercicios y documentación generadas en distintos curs
 ### Python
 
 * Curso Básico de Python
+* Curso Intermedio de Python
 
 ## Autores
 
