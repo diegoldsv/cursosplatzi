@@ -99,6 +99,6 @@ pip install -r requirements.txt
 
 * pyenv
 * pipenv
-* [anaconda](https://www.anaconda.com/products/individual)
+* [anaconda](https://www.anaconda.com/products/individual): 
 Especial para ciencia de datos. No es solo un gestor de dependencias.
 También permite crear entornos virtuales. Además de python puede usar R.
