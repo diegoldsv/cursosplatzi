@@ -125,3 +125,67 @@ example = {i: i**2 for i in range(1,101) if i % 3 != 0}
 # Raiz cuadrada de múltiplos de 4, 6 y 9, hasta 5 dígitos
 my_dict = {i: i**0.5 for i in range (1, 100000) if i % 4 == 0 and i % 6 == 0 and i % 9 == 0 }
 ```
+
+## Funciones Anónimas (lambda)
+
+* Solo permiten una línea de código.
+* Se retorna el valor de la expresión.
+* Sintáxis:
+```python
+lambda argumentos: expresión
+
+#Ejemplo palindrome
+palindrome = lambda string: string == string[::-1]
+```
+
+## High order functions
+
+Es una función que recibe como parámetro a otra función.   
+Ejemplo:
+```python
+def saludo(func):
+    func()
+
+def hola():
+    print("Hola!!")
+
+def adios():
+    print("Adios!!")
+
+saludo(hola)    # Output: Hola!!
+saludo(adios)   # Output: Adios!!
+```
+
+#### Filter
+
+Aplicar un filtro a todos los elementos de un iterable.
+Ejemplo:
+```python
+my_list = [1,2,3,4,5,6,7,8,9]
+
+even = list(filter(lambda x: x%2 == 0, my_list))
+print(even)
+```
+#### Map
+
+Aplicar una operación a todos los elementos de un iterable.
+Ejemplo:
+```python
+my_list = [1,2,3,4,5,6,7,8,9]
+
+squares = list(map(lambda x: x**2, my_list))
+print(squares)
+```
+
+#### Reduce
+
+Aplicar una operación con todos los elementos de un iterable para obtener un resultado.
+Ejemplo:
+```python
+from functools import reduce
+
+my_list = [1,2,3]
+
+factorial = reduce(lambda x, y: x * y, my_list)
+print(factorial)
+```
