@@ -252,3 +252,26 @@ assert expresion, error_message
 # Ejemplo
 assert natural_number in range(1,10), "natural_number no contiene un numero natural"
 ```
+
+## Manejo de ficheros
+
+#### Modos de apertura
+
+* R -> Lectura
+* W -> Escritura (sobreescribir)
+* A -> Escritura (agregar al final)
+
+#### Abrir ficheros
+
+```python
+# WITH: En python se denomina como un “manejador contextual”. Controla el flujo del archivo y se asegura que el archivo no se rompa.
+with open("ruta/del/archivo.txt", "r") as f:
+```
+
+#### Escribir ficheros
+
+```python
+with open("ruta/del/archivo.txt", "w", encoding="utf-8") as f:
+    f.write("Hola!! \n")
+    f.write("Adios!! \n")
+```
