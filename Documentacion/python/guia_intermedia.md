@@ -268,10 +268,18 @@ assert natural_number in range(1,10), "natural_number no contiene un numero natu
 with open("ruta/del/archivo.txt", "r") as f:
 ```
 
+#### Leer ficheros
+
+```python
+with open("ruta/del/archivo.txt", "r") as f:
+    for line in f:
+        print(line)
+```
+
 #### Escribir ficheros
 
 ```python
 with open("ruta/del/archivo.txt", "w", encoding="utf-8") as f:
     f.write("Hola!! \n")
-    f.write("Adios!! \n")
+    f.write("Adiós!! \n")
 ```
