@@ -1,27 +1,31 @@
-# cursosplatzi
-Repositorio que contiene ejercicios y documentación generadas en distintos cursos en Platzi.com.   
+# technotes
+Repositorio que contiene guias, notas y ejemplos sobre distintas tecnologías.
 
 ## Estructura del Repositorio
 
-* Código: Ejercicios, ejemplos o retos de cada lenguaje de programación.
-* Documentación: Apuntes, notas, ejemplos en ficheros markdown de cada lenguaje de programación.
+* Examples
+* Notes
+* Projects
 
-## Contenido
+## Tecnologías
 
-### Bash
+* Bash
+* Javascript
+* Python
 
-* Curso de Programación de Bash Shell
+## Fuentes
 
-### Javascript
+* Cursos de **Platzi.com**
+* Experiencia laboral
 
-* Curso de Fundamentos JS
-### Python
+### Platzi.com
 
-* Curso Básico de Python
-* Curso Intermedio de Python
+* **Bash -** Curso de Programación de Bash Shell
+* **Javascript -** Curso de Fundamentos JS
+* **Python -** Curso Básico de Python
+* **Python -** Curso Intermedio de Python
 
 ## Autores
 
-La mayoría de la información agrupada en este repositorio es de **Platzi.com**.   
 Personas que contribuyen en este repositorio:
 * @diegoldsv
