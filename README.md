@@ -15,9 +15,6 @@ Repositorio que contiene guias, notas y ejemplos sobre distintas tecnologías.
 
 ## Fuentes
 
-* Cursos de **Platzi.com**
-* Experiencia laboral
-
 ### Platzi.com
 
 * **Bash -** Curso de Programación de Bash Shell
