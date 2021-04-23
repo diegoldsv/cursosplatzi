@@ -1,5 +1,6 @@
 from os import system
 from random import shuffle
+import csv
 
 def show_options_menu():
     OPTIONS = ("0", "1", "2")
@@ -65,6 +66,68 @@ def get_hangman(_lines):
     return hangman
 
 
+def get_ranking():
+    try:
+        with open("ranking.csv", "r") as f:
+            ranking_data = csv.DictReader(f)
+            return [{"SCORE": int(row["SCORE"]), "NAME": row["NAME"]} for row in ranking_data]
+    except FileNotFoundError:
+        return []
+
+
+def update_ranking(_ranking):
+    with open('ranking.csv', 'w', newline='') as f:
+        fieldnames = ['SCORE', 'NAME']
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(_ranking)
+        
+
+def show_ranking():
+    system("clear")
+    print("=======")
+    print("RANKING")
+    print("=======")
+    ranking_data = get_ranking()
+    idx = 1
+    for row in ranking_data:
+        print("{}. {} - Level {}".format(idx, row["NAME"], row["SCORE"]))
+        idx += 1
+    print("=======")
+    input("Press enter to main menu")
+
+
+def calculate_new_ranking(_current_level):
+    ranking = get_ranking()
+    if(len(ranking) == 10 and ranking[9]["SCORE"] > _current_level):
+        print("Your score are not good enough to enter in the ranking")
+    else:
+        ranking_name = input("Introduce a name to save your points in the ranking: ")
+        ranking_new_entry = {"SCORE": _current_level, "NAME": ranking_name}
+        print("Saving...")
+        if len(ranking) < 10:
+            ranking.append(ranking_new_entry)
+            ranking.sort(key=lambda ranking_row: ranking_row["SCORE"], reverse=True)
+        else:
+            idx = 0
+            for ranking_row in ranking:
+                if ranking_new_entry["SCORE"] >= ranking_row["SCORE"]:
+                    ranking.insert(idx, ranking_new_entry)
+                    ranking.pop()
+                    break
+                idx += 1
+        update_ranking(ranking)
+
+    
+def show_words_guessed(_level, _words):
+    print("WORDS:")
+    level = 0
+    for word in _words:
+        print("     Level: {} - Word: {}".format(level, word))
+        level+=1
+        if level > _level: return
+
+
 def run_level(_level, _word):
     points = 0
     miss = 0
@@ -87,7 +150,7 @@ def run_level(_level, _word):
             letter = letter.upper()
             if letter in _word:
                 if not letter in "".join(level_output): 
-                    points += 1
+                    points += _word.count(letter)
                     level_output = replace_values_in_list(level_output, word_letters_index.get(letter), letter)
             else:
                 miss += 1
@@ -114,17 +177,29 @@ def run_game():
     if state == -1:
         system("clear")
         print("============")
-        print("YOU LOSE :(")
+        print("GAME OVER :(")
         print("LEVEL:", current_level)
+        if current_level > 0:
+            print("======")
+            show_words_guessed(current_level-1, words_to_guess)
+        print("======")
+        calculate_new_ranking(current_level)
+        # STOP TO SHOW MESSAGES TO THE USER
+        print("======")
+        input("Press enter to main menu")
+
 
 def run():
-    option = int(show_options_menu())
-    if option == 0:
-        run_game()
-    elif option == 1:
-        show_ranking()
-    else:
-        print("Closing...")
+    option = 0
+    while option != 2:
+        option = int(show_options_menu())
+        if option == 0:
+            run_game()
+        elif option == 1:
+            show_ranking()
+        else:
+            system("clear")
+            print("Closing...")
 
 
 if __name__ == '__main__':

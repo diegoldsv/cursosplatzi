@@ -1,2 +1,5 @@
 # Python virtual environment
 **/venv/
+
+# Hangman_game Ranking
+Projects/hangman_game/ranking.csv
