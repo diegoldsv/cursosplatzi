@@ -7,14 +7,8 @@ Repositorio que contiene guias, notas y ejemplos sobre distintas tecnologías.
 * Notes
 * Projects
 
-## Tecnologías
-
-* Bash
-* Javascript
-* Python
-
-## Fuentes
-
+## Examples & Notes
+Generados durante los siguientes cursos:
 ### Platzi.com
 
 * **Bash -** Curso de Programación de Bash Shell
@@ -22,6 +16,9 @@ Repositorio que contiene guias, notas y ejemplos sobre distintas tecnologías.
 * **Python -** Curso Básico de Python
 * **Python -** Curso Intermedio de Python
 
+## Projects
+
+* **Python -** Hangman game
 ## Autores
 
 Personas que contribuyen en este repositorio:
