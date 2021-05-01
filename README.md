@@ -1,5 +1,5 @@
 # technotes
-Este repositorio contiene proyectos y notas sobre tecnologías que aprendo y utilizo en el dia a dia.
+Repositorio personal que contiene proyectos y notas sobre tecnologías que aprendo y utilizo en el dia a dia.
 
 ## Python
 ### Notes
