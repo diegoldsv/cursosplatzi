@@ -15,7 +15,7 @@ Más relevantes:
 * Generador de contraseñas
 ### Projects
 
-* **Python -** Hangman game
+* Hangman game
 ### Sources
 
 * **Platzi.com -** Curso Básico de Python
