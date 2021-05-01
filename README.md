@@ -1,25 +1,22 @@
 # technotes
-Repositorio que contiene guias, notas y ejemplos sobre distintas tecnologías.
+Este repositorio contiene proyectos y notas sobre tecnologías que aprendo y utilizo en el dia a dia.
 
-## Estructura del Repositorio
+## Python
+### Notes
 
-* Examples
-* Notes
-* Projects
+* Guía Básica
+* Guía Intermedia
+### Examples
 
-## Examples & Notes
-Generados durante los siguientes cursos:
-### Platzi.com
+Más relevantes:
 
-* **Bash -** Curso de Programación de Bash Shell
-* **Javascript -** Curso de Fundamentos JS
-* **Python -** Curso Básico de Python
-* **Python -** Curso Intermedio de Python
-
-## Projects
+* Adivina el número
+* Conversor de monedas
+* Generador de contraseñas
+### Projects
 
 * **Python -** Hangman game
-## Autores
+### Sources
 
-Personas que contribuyen en este repositorio:
-* @diegoldsv
+* **Platzi.com -** Curso Básico de Python
+* **Platzi.com -** Curso Intermedio de Python
