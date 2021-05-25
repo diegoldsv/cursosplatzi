@@ -31,3 +31,4 @@ Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el 
 
 * **Platzi.com -** Curso Básico de Python
 * **Platzi.com -** Curso Intermedio de Python
+* Experiencia laboral :)
