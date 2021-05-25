@@ -4,15 +4,26 @@ Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el 
 ## Python
 ### Notas
 
-* Guía Básica
-* Guía Intermedia
+* Documentación
+* Variables
+* Tipos de Datos Primitivos
+* Operadores
+* Estructuras de Control
+* Funciones
+* Estructuras de Datos
+* Módulos
+* Buenas Prácticas
+* Entorno Virtual
+* Gestor de Dependencias
+* Comprehensions
+* Manejo de Errores
+* Manejo de Ficheros
 ### Ejemplos
-
-Más relevantes:
 
 * Adivina el número
 * Conversor de monedas
 * Generador de contraseñas
+* Otros...
 ### Proyectos
 
 * Hangman game

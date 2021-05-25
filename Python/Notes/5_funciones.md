@@ -18,12 +18,12 @@ def suma_de_dos_numeros(numero1, numero2):
 
 ## Funciones más utilizadas
 
-## Funciones de Input / Output
+### Funciones de Input / Output
 
 * Función para obtener datos -> input()
 * Función para mostrar datos -> print()
 
-## Funciones de String
+### Funciones de String
 
 * upper(): Convierte todas las letras a mayúsculas.
 * capitalize(): Convierte las primeras letras de cada palabra a mayúsculas.
