@@ -1,6 +1,6 @@
 # Variables
 
-Caja o lugar donde puedo guardar objetos.
+*"Caja donde guardar objetos".*
 
 Ejemplo:
 ```python

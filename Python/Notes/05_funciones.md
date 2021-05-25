@@ -86,7 +86,7 @@ Ejemplo:
 my_list = [1,2,3,4,5,6,7,8,9]
 
 even = list(filter(lambda x: x%2 == 0, my_list))
-print(even)
+print(even)     # Output: [2,4,6,8]
 ```
 #### Map
 
@@ -96,7 +96,7 @@ Ejemplo:
 my_list = [1,2,3,4,5,6,7,8,9]
 
 squares = list(map(lambda x: x**2, my_list))
-print(squares)
+print(squares)     # Output: [1,4,9,16,25,36,49,64,91]
 ```
 
 #### Reduce
@@ -109,5 +109,5 @@ from functools import reduce
 my_list = [1,2,3]
 
 factorial = reduce(lambda x, y: x * y, my_list)
-print(factorial)
+print(factorial)    # Output: 6
 ```
