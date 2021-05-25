@@ -1,22 +1,22 @@
 # technotes
-Repositorio personal que contiene proyectos y notas sobre tecnologías que aprendo y utilizo en el dia a dia.
+Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el dia a dia.
 
 ## Python
-### Notes
+### Notas
 
 * Guía Básica
 * Guía Intermedia
-### Examples
+### Ejemplos
 
 Más relevantes:
 
 * Adivina el número
 * Conversor de monedas
 * Generador de contraseñas
-### Projects
+### Proyectos
 
 * Hangman game
-### Sources
+### Fuentes
 
 * **Platzi.com -** Curso Básico de Python
 * **Platzi.com -** Curso Intermedio de Python
