@@ -13,6 +13,10 @@ Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el 
 * Modelo de Datos
 * Operadores de Consultas
 
+### Fuentes
+
+* **Platzi.com -** Curso Básico de MongoDB
+
 ## Python
 ### Notas
 
