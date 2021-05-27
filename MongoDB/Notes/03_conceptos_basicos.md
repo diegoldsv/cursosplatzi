@@ -21,7 +21,7 @@
 
 ## Analogía SQL / MongoDB
 
-database <-> database
-tables <-> collections
-rows <-> documents
-columns <-> fields
+database <-> database   
+tables <-> collections   
+rows <-> documents   
+columns <-> fields   

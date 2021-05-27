@@ -57,5 +57,5 @@ db.prueba.updateMany({number: {$gte: 200}}, {$set: {number: 100}})
 db.prueba.deleteOne({name: "Documento de Prueba 3"})
 
 #   Varios elementos -> db.<nombre_coleccion>.deleteMany(<documento_de_condiciones>)
-db.prueba.deleteOne({name: "Documento de Prueba 3"})
+db.prueba.deleteMany({number: 100})
 ```

@@ -15,7 +15,7 @@ Los documentos almacenados en la misma colección pueden tener distinta estructu
 
 * MongoDB Server: Donde se alojan los datos.   
 *Versiones: Community, Enterprise, Atlas(Cloud)*   
-*MongoDB como servicio: Atlas, mLab, MONGO CLUSTERS, ScaleGrid*
+*Opciones de MongoDB como servicio: Atlas, mLab, MONGO CLUSTERS, ScaleGrid*
 * MongoDB Shell: Terminal para interactuar con el servidor.
 * MongoDB Compass: Interfaz gráfica para lanzar queries.
 * Conectores: Librerías dentro del proyecto para comunicarnos con MongoDB.
@@ -28,7 +28,7 @@ Los documentos almacenados en la misma colección pueden tener distinta estructu
 
 #### MongoDB Atlas
 
-* Aprovisionmaineto automático de clusters con MongoDB
+* Aprovisionamiento automático de clusters con MongoDB
 * Alta disponibilidad y escalibilidad
 * Seguro
 * Disponible en AWS, GCP, Azure
