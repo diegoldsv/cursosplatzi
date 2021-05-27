@@ -1,6 +1,18 @@
 # technotes
 Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el dia a dia.
 
+## MongoDB
+
+### Notas
+
+* BBDD No Relacionales
+* Introducción a MongoDB
+* MongoDB Shell
+* Conceptos Básicos
+* Tipos de Datos
+* Modelo de Datos
+* Operadores de Consultas
+
 ## Python
 ### Notas
 
