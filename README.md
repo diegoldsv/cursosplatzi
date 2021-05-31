@@ -1,5 +1,5 @@
 # technotes
-Repositorio que contiene proyectos y notas sobre tecnologías que utilizo en el dia a dia.
+Repositorio de apuntes personales sobre distintas tecnologías.
 
 ## MongoDB
 
